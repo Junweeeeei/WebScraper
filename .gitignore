@@ -3,3 +3,6 @@
 venv/
 __pycache__/
 *.py[cod]
+
+# Ignore cron.log in the backend folder
+backend/cron.log
