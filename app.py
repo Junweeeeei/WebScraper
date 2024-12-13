@@ -11,6 +11,7 @@ from dotenv import load_dotenv
 
 # Setup Dash App
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 # Load environment variables from .env file
 load_dotenv()

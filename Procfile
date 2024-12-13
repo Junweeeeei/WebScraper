@@ -1,1 +1,1 @@
-gunicorn app:app.server --bind 0.0.0.0:8050
+gunicorn app:server --bind 0.0.0.0:8050
