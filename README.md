@@ -8,6 +8,10 @@
 
 The backend scraping scripts run on **Ubuntu** using **Selenium** and are scheduled via **Crontab** to execute hourly. A `crontab.log` file is maintained to capture any failures or errors during scraping. The entire project is deployed on Azure, with the backend on an **Azure Ubuntu instance** and the frontend hosted as an **Azure Web App**.
 
+You can view the Dash application for this project by following the link below:
+
+[Web Scraper Dash App](http://webscraperapp-brgzbkbua6dud8hj.southeastasia-01.azurewebsites.net)
+
 ---
 
 ## Features  
